@@ -8,8 +8,10 @@ rm -rf device/lge/msm8996-common/
 rm -rf device/lge/g6-common/
 rm -rf device/lge/h870/
 
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
-repo sync -c -j1 --fail-fast --no-clone-bundle --no-tags
+$HOME/bin/repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+
+## if sync failed try this :
+## $HOME/bin/repo sync -c -j1 --fail-fast --force-sync --no-clone-bundle --no-tags
 
 source build/envsetup.sh
 
