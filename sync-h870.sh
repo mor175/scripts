@@ -10,7 +10,7 @@ rm -rf device/lge/h870/
 
 $HOME/bin/repo sync -c -n -j4 --no-clone-bundle --no-tags && $HOME/bin/repo sync -c -l -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
-## as sync failed regurlarly...
+## as sync failed regularly...
 $HOME/bin/repo sync -c -j1 --fail-fast --force-sync --no-clone-bundle --no-tags
 
 ## eOS - remove prebuiltapks contents
