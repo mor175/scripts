@@ -4,6 +4,11 @@
 
 This scripts are only for LG G6 H870 variant (EU) to build /e/OS on Linux.
 
+```diff
+- WARNING : Still in BETA stage !
+- Compiling work well, but some prebuilt APKs not working (Camera, MagicEarth)
+```
+
 **Tested on Ubuntu 22.04 LTS**
 
 To initialize your local repository, use this ninja command:
