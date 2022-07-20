@@ -19,13 +19,11 @@ rm -rf prebuilts/prebuiltapks/
 cd prebuilts/
 git clone https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks_lfs.git -b main
 mv android_prebuilts_prebuiltapks_lfs/ prebuiltapks/
-cd prebuiltapks/
-rm -rf Camera/
-cd ../../
+cd ../
 
 source build/envsetup.sh
 
-source scripts/fixes.sh
-source scripts/extras.sh
+## source scripts/fixes.sh
+## source scripts/extras.sh
 
 rm -rf packages/apps/Updater/
