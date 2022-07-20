@@ -5,7 +5,7 @@
 This scripts are only for LG G6 H870 variant (EU) to build /e/OS on Linux.
 
 ```diff
-- WARNING : Still in BETA stage !
+- WARNING : Still in development !
 - Compiling work well, but some prebuilt APKs not working (Camera, MagicEarth)
 ```
 
