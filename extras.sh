@@ -3,10 +3,10 @@
 # repopick -t R_asb_2022-07
 # cd build/make/core/ && sed -i 's/2022-06-05/2022-07-05/g' version_defaults.mk  && cd ../../../
 
-# microG support
-cd frameworks/base/
-git cherry-pick f93240a9fe3e74e252e6e69db6993bee751a3515
-cd ../../
+# microG support - already supported by /e/OS, so not necessary ?
+# cd frameworks/base/
+# git cherry-pick f93240a9fe3e74e252e6e69db6993bee751a3515
+# cd ../../
 
 # Charging animation
 # cd frameworks/base/
