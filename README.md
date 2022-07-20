@@ -17,3 +17,17 @@ To build /e/OS:
 ```Shell
 source scripts/build-h870.sh
 ```
+
+
+**Ubuntu 22.04 LTS - Special Note :**
+
+You may need to add this packages (apt-get install) : cpu-checker python-is-python3 zram-config git-lfs
+
+To fix "Can't locate Getopt/Std.pm in @INC", execute this :
+```Shell
+sudo perl -e shell -MCPAN
+cpan>install CPAN
+cpan>reload cpan
+cpan>install Getopt::Std
+cpan>exit
+```
