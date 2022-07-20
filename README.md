@@ -19,9 +19,16 @@ source scripts/build-h870.sh
 ```
 
 
-**Ubuntu 22.04 LTS - Special Note :**
+**Ubuntu 22.04 LTS - Special Notes :**
 
-You may need to add this packages (apt-get install) : cpu-checker python-is-python3 zram-config git-lfs
+Instead of download and install "platform-tools-latest-linux.zip", you could do this :
+```Shell
+sudo apt-get install adb fastboot
+```
+
+You may need also add this packages : cpu-checker python-is-python3 zram-config git-lfs
+
+JAVA : v1-r is equivalent to LineageOS 18.1, so it's not necessary to install OpenJDK 11 (included in source download)
 
 To fix "Can't locate Getopt/Std.pm in @INC", execute this :
 ```Shell
