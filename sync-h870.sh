@@ -21,7 +21,7 @@ git clone https://gitlab.e.foundation/e/os/android_prebuilts_prebuiltapks_lfs.gi
 mv android_prebuilts_prebuiltapks_lfs/ prebuiltapks/
 cd prebuiltapks/
 rm -rf Camera/
-cd ..
+cd ../..
 
 source build/envsetup.sh
 
