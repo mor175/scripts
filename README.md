@@ -43,3 +43,5 @@ cpan>reload cpan
 cpan>install Getopt::Std
 cpan>exit
 ```
+ln -s /usr/share/perl/5.34.0/ /usr/share/perl/5.26
+ln -s /usr/share/perl/5.34.0/ /usr/share/perl/5.26.1
