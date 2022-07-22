@@ -6,7 +6,7 @@ This scripts are only for LG G6 H870 variant (EU) to build /e/OS on Linux.
 
 ```diff
 - WARNING : Still in development !
-- Compiling work well, but some prebuilt APKs not working (Camera, MagicEarth)
+- Compiling work well, but some prebuilt APKs not working (AppLounge, MagicEarth, Musique...)
 ```
 
 **Tested on Ubuntu 22.04 LTS**
@@ -44,4 +44,5 @@ cpan>install Getopt::Std
 cpan>exit
 ```
 ln -s /usr/share/perl/5.34.0/ /usr/share/perl/5.26
+
 ln -s /usr/share/perl/5.34.0/ /usr/share/perl/5.26.1
