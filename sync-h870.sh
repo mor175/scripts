@@ -23,6 +23,6 @@ cd ../
 
 source build/envsetup.sh
 
-## source scripts/fixes.sh
+source scripts/fixes.sh
 
 rm -rf packages/apps/Updater/
