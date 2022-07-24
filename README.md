@@ -1,13 +1,8 @@
 # /e/OS (https://e.foundation/)
 
-### This files are inspired by them from https://github.com/LG-G6, many thanks to Bernardo Bas.
+### This scripts are derivated from https://github.com/LG-G6 and many others things like kernel come from this repositories, so many thanks to Bernardo Bas.
 
 This scripts are only for LG G6 H870 variant (EU) to build /e/OS on Linux.
-
-```diff
-- WARNING : Still in development !
-- Compiling work well, but some prebuilt APKs not working (AppLounge, MagicEarth, Musique...)
-```
 
 **Tested on Ubuntu 22.04 LTS**
 
@@ -22,7 +17,6 @@ To build /e/OS:
 ```Shell
 source scripts/build-h870.sh
 ```
-
 
 **Ubuntu 22.04 LTS - Special Notes :**
 
