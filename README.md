@@ -1,6 +1,6 @@
 # /e/OS (https://e.foundation/)
 
-### This scripts are derivated from https://github.com/LG-G6 and many others things like kernel come from this repositories, so many thanks to Bernardo Bas.
+### This scripts are derived from https://github.com/LG-G6 and many others things like kernel come from this repositories, so many thanks to Bernardo Bas.
 
 This scripts are only for LG G6 H870 variant (EU) to build /e/OS on Linux.
 
