@@ -22,5 +22,3 @@ mv android_prebuilts_prebuiltapks_lfs/ prebuiltapks/
 cd ../
 
 source scripts/fixes.sh
-
-rm -rf packages/apps/Updater/
