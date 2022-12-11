@@ -7,5 +7,5 @@
   <project name="mor175/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="v1-r" />
   <project name="mor175/gcc-10.3-aarch64" path="prebuilts/gcc/linux-x86/aarch64/gcc-10.3-aarch64" remote="github" revision="main" />
   <project name="mor175/gcc-10.3-arm" path="prebuilts/gcc/linux-x86/arm/gcc-10.3-arm" remote="github" revision="main" />
-  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" />
+  <project name="mor175/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="v1-r" />
 </manifest>
