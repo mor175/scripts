@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="mor175/android_device_lge_h870" path="device/lge/h870" remote="github" revision="v1-r" />
-  <project name="mor175/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" revision="v1-r" />
-  <project name="mor175/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" revision="v1-r" />
-  <project name="mor175/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="v1-r" />
-  <project name="mor175/android_device_lge_g6-common" path="device/lge/g6-common" remote="github" revision="v1-r" />
-  <project name="mor175/gcc-10.3-aarch64" path="prebuilts/gcc/linux-x86/aarch64/gcc-10.3-aarch64" remote="github" revision="main" />
-  <project name="mor175/gcc-10.3-arm" path="prebuilts/gcc/linux-x86/arm/gcc-10.3-arm" remote="github" revision="main" />
-  <project name="mor175/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="v1-r" />
+  <project path="device/lge/h870" remote="github" name="mor175/android_device_lge_h870" revision="lineage-22.2" />
+  <project path="device/lge/g6-common" remote="github" name="mor175/android_device_lge_g6-common" revision="lineage-22.2" />
+  <project path="device/lge/msm8996-common" remote="github" name="mor175/android_device_lge_msm8996-common" revision="lineage-22.2" />
+  <project path="kernel/lge/msm8996" remote="github" name="mor175/android_kernel_lge_msm8996" revision="lineage-22.2" />
+  <project path="hardware/lge" remote="github" name="mor175/android_hardware_lge" revision="lineage-22.2" />
+  <project path="hardware/sony/timekeep" remote="github" name="mor175/android_hardware_sony_timekeep" revision="lineage-22.2" />
+  <project name="mor175/proprietary_vendor_lge_h870" path="vendor/lge/h870" groups="muppets,muppets_h870" clone-depth="1" revision="lineage-22.2" />
+  <project name="mor175/proprietary_vendor_lge_g6-common" path="vendor/lge/g6-common" groups="muppets,muppets_h870" clone-depth="1" revision="lineage-22.2" />
+  <project name="mor175/proprietary_vendor_lge_msm8996-common" path="vendor/lge/msm8996-common" groups="muppets,muppets_h870" clone-depth="1" revision="lineage-22.2" />
 </manifest>
