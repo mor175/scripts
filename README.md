@@ -7,7 +7,7 @@ This scripts are ONLY for LG G6, H870 variant (EU) with bootloader unlocked by o
 To initialize your local repository, use this ninja command:
 
 ```Shell
-mkdir eOS && cd eOS && git clone https://github.com/mor175/scripts.git -b v4.x-a15 && repo init -u https://gitlab.e.foundation/e/os/android.git -b v4.2-a15 --git-lfs --depth=1 && export USE_CCACHE=1 && export CCACHE_EXEC=/usr/bin/ccache && ccache -M 50G && mkdir .repo/local_manifests && cp scripts/roomservice-h870.xml .repo/local_manifests/ && mv .repo/local_manifests/roomservice-h870.xml .repo/local_manifests/roomservice.xml
+mkdir eOS && cd eOS && git clone https://github.com/mor175/scripts.git -b v4.x-a15 && repo init -u https://gitlab.e.foundation/e/os/android.git -b v4.2-a15 --git-lfs --depth=1 && export USE_CCACHE=1 && export CCACHE_EXEC=/usr/bin/ccache && ccache -M 100G && ccache -o compression=true && mkdir .repo/local_manifests && cp scripts/roomservice-h870.xml .repo/local_manifests/ && mv .repo/local_manifests/roomservice-h870.xml .repo/local_manifests/roomservice.xml
 ```
 
 To build /e/OS:
