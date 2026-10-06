@@ -20,12 +20,12 @@ source scripts/build-h870.sh
 
 ** Special Notes : **
 
-Instead of download and install "platform-tools-latest-linux.zip", you could do this :
+On Ubuntu based distro, instead of download and install "platform-tools-latest-linux.zip", you could do this :
 ```Shell
 sudo apt-get install adb fastboot
 ```
 
-You may need also add this packages : cpu-checker python-is-python3 zram-config git-lfs
+You may need also add this packages : python-is-python3 git-lfs
 
 
 JAVA : it's not necessary to install OpenJDK (included in source download)
