@@ -2,7 +2,7 @@
 
 This scripts are ONLY for LG G6, H870 variant (EU) with bootloader unlocked by offcial method (https://doc.e.foundation/devices/h870).
 
-For instructions on how to build, please refer to the LineageOS Wiki (https://wiki.lineageos.org/devices/h870/build/).
+For instructions on how to build by this method, as e/OS/ is based on LineageOS, you can refer to the LineageOS Wiki (https://wiki.lineageos.org/devices/h870/build/).
 
 ** Tested on Zorin-OS-18.1 (Ubuntu 24.04 LTS) **
 
