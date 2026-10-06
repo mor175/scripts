@@ -11,8 +11,8 @@ build_build_var_cache
 
 make clean
 
-export ALLOW_MISSING_DEPENDENCIES=true
-export RELAX_USES_LIBRARY_CHECK=true
+# export ALLOW_MISSING_DEPENDENCIES=true
+# export RELAX_USES_LIBRARY_CHECK=true
 
 croot
 breakfast h870
