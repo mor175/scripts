@@ -15,5 +15,7 @@ breakfast h870
 
 croot
 brunch h870
-# if 'brunch' give you warnings or error, instead try this :
-# mka h870 -j4
+
+# if 'brunch' give you warnings or error, try this commands :
+#> lunch lineage_h870-debug
+#> mka bacon -j4
