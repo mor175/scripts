@@ -1,5 +1,4 @@
 #!/bin/bash
-source scripts/sync-h870.sh
 
 source build/envsetup.sh
 
@@ -10,9 +9,6 @@ export RELEASE_TYPE='unofficial'
 build_build_var_cache
 
 make clean
-
-# export ALLOW_MISSING_DEPENDENCIES=true
-# export RELAX_USES_LIBRARY_CHECK=true
 
 croot
 breakfast h870
