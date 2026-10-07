@@ -15,6 +15,8 @@ mkdir eOS_build && cd eOS_build && git clone https://github.com/mor175/scripts.g
 To build /e/OS:
 
 ```Shell
+source scripts/sync-h870.sh
+
 source scripts/build-h870.sh
 ```
 
