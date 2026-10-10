@@ -1,6 +1,6 @@
 # /e/OS (https://e.foundation/)
 
-This scripts are ONLY for LG G6, H870 variant (EU) with bootloader unlocked by offcial method (https://doc.e.foundation/devices/h870).
+This scripts are ONLY for LG G6 H870 variant (EU) (https://doc.e.foundation/devices/h870). The builds that result are only for devices that were officially bootloader unlocked on LG’s web-portal before it shut down.
 
 
 For instructions on how to build by this method, as e/OS/ for this model is based on LineageOS, you can refer to the LineageOS Wiki (https://wiki.lineageos.org/devices/h870/build/).
