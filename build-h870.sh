@@ -12,6 +12,8 @@ make clean
 
 croot
 breakfast h870
+# if you don't have generate your signin keys, comment the line below
+mka target-files-package otatools
 
 croot
 brunch h870
