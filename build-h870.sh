@@ -1,5 +1,7 @@
 #!/bin/bash
 
+tmux new -s eos
+
 source build/envsetup.sh
 
 export TARGET_RELEASE='bp1a'
@@ -13,12 +15,9 @@ make clean
 croot
 breakfast h870
 
-mka bacon
-
-# if you don't have generate signin keys for your build, uncomment this two lines
-# croot
-# brunch h870
+croot
+brunch h870 2>&1 | tee build_eOS.log
 
 # if 'brunch' give you warnings or error, instead try this commands :
 #> lunch lineage_h870-debug
-#> mka bacon -j4
+#> make -j$(nproc --all) bacon
