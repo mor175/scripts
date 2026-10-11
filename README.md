@@ -25,6 +25,8 @@ source scripts/sync-h870.sh
 tmux new -s eos
 export USE_CCACHE=1 && export CCACHE_EXEC=/usr/bin/ccache && export CCACHE_DIR="$HOME/.cache/ccache" && ccache -M 50G && ccache -o compression=true
 
+ccache --clean
+
 source scripts/build-h870.sh
 ```
 
