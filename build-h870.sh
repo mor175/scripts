@@ -1,7 +1,5 @@
 #!/bin/bash
 
-tmux new -s eos
-
 source build/envsetup.sh
 
 export TARGET_RELEASE='bp1a'
