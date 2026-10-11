@@ -22,6 +22,8 @@ To build /e/OS:
 ```Shell
 source scripts/sync-h870.sh
 
+tmux new -s eos
+
 source scripts/build-h870.sh
 ```
 
