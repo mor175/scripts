@@ -33,7 +33,7 @@ On Ubuntu based distro, instead of download and install "platform-tools-latest-l
 sudo apt-get install adb fastboot
 ```
 
-You may need also add this packages : python-is-python3 git-lfs
+You may need also add this packages : tmux python-is-python3 git-lfs
 
 
 JAVA : it's not necessary to install OpenJDK (included in source download)
